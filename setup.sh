@@ -1,4 +1,8 @@
 if [ "$1" = "TERMUX" ]; then
+  rm -rf ~/apps/ollama
+  rm ~/bin/gpt.py
+  rm ~/bin/gpt
+
   yes | pkg upgrade
   yes | pkg install git cmake golang python
 
@@ -15,4 +19,6 @@ if [ "$1" = "TERMUX" ]; then
 
   nohup ~/apps/ollama/ollama serve &
   ~/apps/ollama/ollama pull tinyllama
+
+  rm -rf ~/temp
 fi
