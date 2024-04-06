@@ -2,5 +2,5 @@
 #include <stdlib.h>
 
 int main(){
-  system("nohup ~/apps/ollama/ollama serve >/dev/null 2>&1 &");
+  system("python ~/apps/ollama/gpt.py");
 }
