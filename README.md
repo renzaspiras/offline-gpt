@@ -20,12 +20,11 @@ cm add https://github.com/renzaspiras/offline-gpt.git
 Support for other operating systems will be added soon. Stay tuned for updates!
 
 ## Usage
-
-Once installed, you can interact with the Offline GPT model through your preferred command-line interface. Simply invoke the model and start chatting. Here's an example of how to use it:
-
+Once installed, you can interact with the GPT model through your preferred command-line interface. Simply invoke the model and start chatting. To exit the application, input `exit`. Here's an example of how to use it:
 ```bash
-offline-gpt
+gpt
 ```
+Input your desired conversation and when you're finished, type `exit` to close the application.
 
 ## Contributing
 
