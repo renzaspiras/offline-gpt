@@ -6,7 +6,7 @@ def start_ollama():
     subprocess.Popen(command, shell=True)
 
 def prompt(what):
-    return f"You will answer the prompt as simple as possible. Do not overcomplicate your output. [PROMPT:{what}]"
+    return f"You will answer the prompt as simple as possible. Do not overcomplicate your output. Just straight forward say the answer without saying anything else. [PROMPT:{what}]"
 
 start_ollama()
 
@@ -16,6 +16,7 @@ while True:
         break
     else:
         prompt_message = prompt(ask)
+        print("\n[OUTPUT]")
         os.system(f'~/apps/ollama/ollama run tinyllama "{prompt_message}"')
 
 # Close the app
