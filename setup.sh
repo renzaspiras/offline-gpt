@@ -21,4 +21,7 @@ if [ "$1" = "TERMUX" ]; then
   ~/apps/ollama/ollama pull tinyllama
 
   rm -rf ~/temp
+
+else
+  echo "This Operating system Structure is not supported yet"  
 fi
