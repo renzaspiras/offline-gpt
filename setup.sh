@@ -1,4 +1,4 @@
-if [ "$1" = "TERMUX" ]; then
+if [ "$1" = "PTERMUX" ]; then
   rm -rf ~/apps/ollama
   rm ~/bin/gpt.py
   rm ~/bin/gpt
@@ -23,5 +23,5 @@ if [ "$1" = "TERMUX" ]; then
   rm -rf ~/temp
 
 else
-  echo "This Operating system Structure is not supported yet"  
+  echo "THE OPERRATING SYSTEM NAMED $1 is not supported on this installation wizzard"  
 fi
