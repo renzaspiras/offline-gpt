@@ -10,7 +10,7 @@ if [ "$1" = "TERMUX" ]; then
   chmod -R 700 ~/go
   rm -r ~/go
 
-  gcc ~/temp/ollama/gpt.c -o ~/apps/ollama/gpt  
+  gcc ~/temp/gpt.c -o ~/apps/ollama/gpt  
   mv ~/temp/gpt.py ~/apps/ollama/gpt.py
 
   nohup ~/apps/ollama/ollama serve >/dev/null 2>&1 &
