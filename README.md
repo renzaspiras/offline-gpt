@@ -32,8 +32,4 @@ Contributions to this project are welcome! Feel free to submit bug reports, feat
 
 ## License
 
-Sure, here's the modified License section with the GNU General Public License:
-
-## License
-
 This project is licensed under the [GNU General Public License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of this license.
