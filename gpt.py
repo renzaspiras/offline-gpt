@@ -10,4 +10,4 @@ def prompt(what):
 #os.system();
 ask = input("[You]:> ")
 
-os.system("~/apps/ollama/ollama run tinyllama")
+os.system(f"~/apps/ollama/ollama run tinyllama {property(ask)}")
